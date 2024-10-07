@@ -1,0 +1,22 @@
+.Root {
+  display: flex;
+  flex-direction: column;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.AllResults {
+  flex: 1;
+}
+
+.ResultsList {
+  background: "green"
+}
+
+.RandomChuckNorrisJokeContainer {
+  margin: 20px;
+}
+
+.RandomChuckNorrisJokeText {
+  font-family: cursive;
+}

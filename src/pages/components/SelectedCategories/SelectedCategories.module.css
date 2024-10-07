@@ -1,0 +1,25 @@
+.resultsContainer {
+  display: flex;
+  height: 250px;
+  overflow-y: auto;
+
+}
+
+.pill {
+  display: flex;
+  width: 500px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.selectedPill {
+    height: 15px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: blue;
+    display: inline-block;
+    padding: 15px 10px;
+    margin: 2px 10px;
+    width: 100px;
+    color: white;
+  }

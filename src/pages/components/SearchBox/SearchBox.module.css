@@ -1,0 +1,43 @@
+.main {
+  /* width: 1000px; */
+}
+
+.inputContainer {
+  position: relative;
+}
+
+.input {
+  width: 400px;
+  height: 85px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  text-align: center;
+  text-overflow: ellipsis;
+}
+
+.searchResultsContainer {
+  position: absolute;
+  left: 300px;
+  border: 2px solid black;
+}
+
+.searchResultsList {
+  list-style-type: auto;
+  max-height: 150px;
+  overflow-y: scroll;
+}
+
+.show:hover + .searchResultsList {
+  color: green;
+}
+
+.searchItems {
+  padding: 3px;
+  width: 335px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+show:hover + .searchItems {
+  color: green;
+}

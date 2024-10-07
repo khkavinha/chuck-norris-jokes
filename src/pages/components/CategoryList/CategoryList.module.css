@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 30px;
+  justify-content: center;
+  width: 500px;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.error {
+  padding: 3px;
+  width: 335px;
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.categoryItem {
+  padding: 3px;
+  width: 335px;
+  font-weight: 350;
+}
